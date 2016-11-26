@@ -1,3 +1,4 @@
+//输入结点的编号是0到n-1
 #include <iostream>
 #include <vector>
 #include <cstring>
