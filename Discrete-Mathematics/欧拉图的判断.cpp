@@ -48,8 +48,6 @@ int n,m;
 vector<int> G[maxn];
 
 int main(){
-    freopen("in.txt","r",stdin);
-    freopen("out.txt","w",stdout);
     while(cin>>n>>m){
         for(int i=0;i<m;i++){
             int a,b;
