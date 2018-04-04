@@ -1,0 +1,14 @@
+﻿  Source.cpp
+d:\binarysearchtree\binarysearchtree\binarynode.h(153): warning C4018: '<': signed/unsigned mismatch
+  d:\binarysearchtree\binarysearchtree\binarynode.h(186): note: see reference to function template instantiation 'void printNodes<Comparable>(std::vector<BinaryNode<Comparable> *,std::allocator<_Ty>>,int,int)' being compiled
+          with
+          [
+              Comparable=int,
+              _Ty=BinaryNode<int> *
+          ]
+  d:\binarysearchtree\binarysearchtree\source.cpp(10): note: see reference to function template instantiation 'void printTree<Comparable>(BinaryNode<Comparable> *)' being compiled
+          with
+          [
+              Comparable=int
+          ]
+  BinarySearchTree.vcxproj -> D:\BinarySearchTree\Debug\BinarySearchTree.exe
