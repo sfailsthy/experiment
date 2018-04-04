@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/sfailsthy/Desktop/experiment/expr_tree/BinaryNode.h
+iostream
+-
+queue
+-
+map
+-
+vector
+-
+utility
+-
+iomanip
+-
+algorithm
+-
+cmath
+-
+
+C:/Users/sfailsthy/Desktop/experiment/expr_tree/main.cpp
+iostream
+-
+stack
+-
+BinaryNode.h
+C:/Users/sfailsthy/Desktop/experiment/expr_tree/BinaryNode.h
+
