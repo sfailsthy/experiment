@@ -1,35 +1,14 @@
 ﻿  Source.cpp
-c:\users\sfailsthy\desktop\experiment\heaps\heaps\binaryheap.h(17): warning C4018: '<': signed/unsigned mismatch
-  c:\users\sfailsthy\desktop\experiment\heaps\heaps\binaryheap.h(15): note: while compiling class template member function 'BinaryHeap<int>::BinaryHeap(const std::vector<int,std::allocator<_Ty>> &)'
+c:\users\sfailsthy\desktop\experiment\heaps\heaps\leftistheap.h(143): warning C4018: '<': signed/unsigned mismatch
+  c:\users\sfailsthy\desktop\experiment\heaps\heaps\leftistheap.h(114): note: while compiling class template member function 'void LeftistHeap<int>::printNodes(std::vector<LeftistHeap<int>::LeftistNode *,std::allocator<_Ty>>,int,int)'
           with
           [
-              _Ty=int
+              _Ty=LeftistHeap<int>::LeftistNode *
           ]
-  c:\users\sfailsthy\desktop\experiment\heaps\heaps\source.cpp(8): note: see reference to function template instantiation 'BinaryHeap<int>::BinaryHeap(const std::vector<int,std::allocator<_Ty>> &)' being compiled
+  c:\users\sfailsthy\desktop\experiment\heaps\heaps\leftistheap.h(175): note: see reference to function template instantiation 'void LeftistHeap<int>::printNodes(std::vector<LeftistHeap<int>::LeftistNode *,std::allocator<_Ty>>,int,int)' being compiled
           with
           [
-              _Ty=int
+              _Ty=LeftistHeap<int>::LeftistNode *
           ]
-  c:\users\sfailsthy\desktop\experiment\heaps\heaps\source.cpp(8): note: see reference to class template instantiation 'BinaryHeap<int>' being compiled
-c:\users\sfailsthy\desktop\experiment\heaps\heaps\binarynode.h(31): warning C4018: '<': signed/unsigned mismatch
-  c:\users\sfailsthy\desktop\experiment\heaps\heaps\binaryheap.h(44): note: see reference to function template instantiation 'void build<Comparable>(BinaryNode<Comparable> *&,const std::vector<int,std::allocator<_Ty>> &,int)' being compiled
-          with
-          [
-              Comparable=int,
-              _Ty=int
-          ]
-  c:\users\sfailsthy\desktop\experiment\heaps\heaps\binaryheap.h(41): note: while compiling class template member function 'void BinaryHeap<int>::print(void)'
-  c:\users\sfailsthy\desktop\experiment\heaps\heaps\source.cpp(9): note: see reference to function template instantiation 'void BinaryHeap<int>::print(void)' being compiled
-c:\users\sfailsthy\desktop\experiment\heaps\heaps\binarynode.h(140): warning C4018: '<': signed/unsigned mismatch
-  c:\users\sfailsthy\desktop\experiment\heaps\heaps\binarynode.h(173): note: see reference to function template instantiation 'void printNodes<Comparable>(std::vector<BinaryNode<Comparable> *,std::allocator<_Ty>>,int,int)' being compiled
-          with
-          [
-              Comparable=int,
-              _Ty=BinaryNode<int> *
-          ]
-  c:\users\sfailsthy\desktop\experiment\heaps\heaps\binaryheap.h(45): note: see reference to function template instantiation 'void printTree<Comparable>(BinaryNode<Comparable> *)' being compiled
-          with
-          [
-              Comparable=int
-          ]
+  c:\users\sfailsthy\desktop\experiment\heaps\heaps\source.cpp(14): note: see reference to class template instantiation 'LeftistHeap<int>' being compiled
   Heaps.vcxproj -> C:\Users\sfailsthy\Desktop\experiment\Heaps\Debug\Heaps.exe
