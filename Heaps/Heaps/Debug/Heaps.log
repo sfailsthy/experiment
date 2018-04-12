@@ -1,14 +1,6 @@
 ﻿  Source.cpp
-c:\users\sfailsthy\desktop\experiment\heaps\heaps\leftistheap.h(143): warning C4018: '<': signed/unsigned mismatch
-  c:\users\sfailsthy\desktop\experiment\heaps\heaps\leftistheap.h(114): note: while compiling class template member function 'void LeftistHeap<int>::printNodes(std::vector<LeftistHeap<int>::LeftistNode *,std::allocator<_Ty>>,int,int)'
-          with
-          [
-              _Ty=LeftistHeap<int>::LeftistNode *
-          ]
-  c:\users\sfailsthy\desktop\experiment\heaps\heaps\leftistheap.h(175): note: see reference to function template instantiation 'void LeftistHeap<int>::printNodes(std::vector<LeftistHeap<int>::LeftistNode *,std::allocator<_Ty>>,int,int)' being compiled
-          with
-          [
-              _Ty=LeftistHeap<int>::LeftistNode *
-          ]
-  c:\users\sfailsthy\desktop\experiment\heaps\heaps\source.cpp(14): note: see reference to class template instantiation 'LeftistHeap<int>' being compiled
-  Heaps.vcxproj -> C:\Users\sfailsthy\Desktop\experiment\Heaps\Debug\Heaps.exe
+d:\experiment\heaps\heaps\binomialqueue.h(125): warning C4018: '<': signed/unsigned mismatch
+  d:\experiment\heaps\heaps\binomialqueue.h(107): note: while compiling class template member function 'void BinomialQueue<int>::merge(BinomialQueue<int> &)'
+  d:\experiment\heaps\heaps\binomialqueue.h(68): note: see reference to function template instantiation 'void BinomialQueue<int>::merge(BinomialQueue<int> &)' being compiled
+  d:\experiment\heaps\heaps\source.cpp(30): note: see reference to class template instantiation 'BinomialQueue<int>' being compiled
+  Heaps.vcxproj -> D:\experiment\Heaps\Debug\Heaps.exe

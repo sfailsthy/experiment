@@ -21,6 +21,7 @@
   <ItemGroup>
     <ClInclude Include="BinaryHeap.h" />
     <ClInclude Include="BinaryNode.h" />
+    <ClInclude Include="BinomialQueue.h" />
     <ClInclude Include="LeftistHeap.h" />
   </ItemGroup>
   <ItemGroup>
