@@ -1,5 +1,5 @@
 #pragma once
-
+//三元组
 #ifndef SPARSEMATRIX_H
 #define SPARSEMATRIX_H
 
@@ -15,15 +15,15 @@ class SparseMatrix
 
 public:
 	SparseMatrix() = default;
-	SparseMatrix(std::vector<std::vector<int>> arr);
+	SparseMatrix(const std::vector<std::vector<int>> &arr);
 	SparseMatrix(const SparseMatrix &rhs);
 	SparseMatrix(SparseMatrix &&rhs);
 	SparseMatrix& operator=(const SparseMatrix &rhs);
 	SparseMatrix& operator=(SparseMatrix &&rhs);
 	~SparseMatrix() { data.clear(); }
 
-	SparseMatrix Transpose();
-	SparseMatrix FastTranspose();
+	SparseMatrix Transpose() const;
+	SparseMatrix FastTranspose() const;
 
 private:
 	using Triple = std::tuple<int, int, int>;//行下标、列下标、值

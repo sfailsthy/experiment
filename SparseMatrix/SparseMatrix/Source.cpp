@@ -1,6 +1,7 @@
 #include <tuple>
 #include <iostream>
 #include "SparseMatrix.h"
+#include "CrossList.h"
 
 int main() {
 	/*SparseMatrix sm({
@@ -31,7 +32,7 @@ int main() {
 		{ 0,0,0,0,1 } });
 	std::cout << s1 << std::endl;
 	std::cout << s1.Transpose() << std::endl;
-	std::cout << s1 + s2 << std::endl;*/
+	std::cout << s1 + s2 << std::endl;
 	SparseMatrix m({
 		{3,0,0,5},
 		{0,-1,0,0},
@@ -42,7 +43,22 @@ int main() {
 		{1,0},
 		{-2,4},
 		{0,0}
-		});
-	std::cout << m * n << std::endl;
+		});*/
+
+	CrossList c1({
+		{ 1,0,3,0,5 },
+		{ 0,0,0,0,0 },
+		{ 0,0,0,0,0 },
+		{ 1,0,3,0,5 },
+		{ 0,0,0,0,0 },
+		{ 0,0,0,0,0 } });
+	CrossList c2({
+		{ 1,0,3,0,-5 },
+		{ 0,0,0,0,0 },
+		{ 0,0,2,4,0 },
+		{ 1,0,3,0,5 },
+		{ 0,0,0,1,0 },
+		{ 0,0,0,0,1 } });
+	std::cout << c1 + c2 << std::endl;
 	system("pause");
 }

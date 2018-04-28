@@ -2,7 +2,7 @@
 #include <algorithm>
 #include <cassert>
 
-SparseMatrix::SparseMatrix(std::vector<std::vector<int>> arr) :
+SparseMatrix::SparseMatrix(const std::vector<std::vector<int>> &arr) :
 	row(arr.size()), col(arr[0].size()) {
 	for (int i = 0; i != row; ++i) {
 		for (int j = 0; j != col; ++j) {
@@ -60,7 +60,7 @@ SparseMatrix& SparseMatrix::operator=(SparseMatrix &&rhs) {
 	return *this;
 }
 
-SparseMatrix SparseMatrix::Transpose() {
+SparseMatrix SparseMatrix::Transpose() const {
 	SparseMatrix res;
 	res.row = col;
 	res.col = row;
@@ -78,7 +78,7 @@ SparseMatrix SparseMatrix::Transpose() {
 	return res;
 }
 
-SparseMatrix SparseMatrix::FastTranspose() {
+SparseMatrix SparseMatrix::FastTranspose() const {
 	SparseMatrix res;
 	res.row = col;
 	res.col = row;
