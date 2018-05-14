@@ -71,7 +71,7 @@ private:
 
 	void insert(const Comparable &x, BinaryNode<Comparable>* &t) {
 		if (t == nullptr) {
-			t = new BinaryNode<Comparable>{ x,nullptr,nullptr };
+			t = new BinaryNode<Comparable>{ x,nullptr,nullptr,nullptr };
 		}
 		else if (x < t->val) {
 			insert(x, t->left);
@@ -85,7 +85,7 @@ private:
 
 	void insert(Comparable &&x, BinaryNode<Comparable>* &t) {
 		if (t == nullptr) {
-			t = new BinaryNode<Comparable>{ std::move(x),nullptr,nullptr };
+			t = new BinaryNode<Comparable>{ std::move(x),nullptr,nullptr,nullptr };
 		}
 		else if (x < t->val) {
 			insert(std::move(x), t->left);
