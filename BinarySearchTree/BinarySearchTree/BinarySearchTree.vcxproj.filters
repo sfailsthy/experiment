@@ -21,6 +21,18 @@
     <ClInclude Include="BinarySearchTree.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="huffman.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="printTree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="traverse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="threading.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source.cpp">

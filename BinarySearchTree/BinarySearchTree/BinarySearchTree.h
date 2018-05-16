@@ -63,7 +63,7 @@ public:
 	}
 
 private:
-	BinaryNode<Comparable> * root;
+	BinaryNode<Comparable> *root;
 	int height(BinaryNode<Comparable> *t) const {
 		return t == nullptr ? -1 : t->height;
 	}
@@ -84,6 +84,8 @@ private:
 	}
 
 	void insert(Comparable &&x, BinaryNode<Comparable>* &t) {
+		
+		//平衡二叉树的插入
 		if (t == nullptr) {
 			t = new BinaryNode<Comparable>{ std::move(x),nullptr,nullptr,nullptr };
 		}

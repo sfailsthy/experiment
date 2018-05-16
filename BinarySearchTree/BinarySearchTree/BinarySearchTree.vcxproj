@@ -145,6 +145,10 @@
   <ItemGroup>
     <ClInclude Include="BinaryNode.h" />
     <ClInclude Include="BinarySearchTree.h" />
+    <ClInclude Include="huffman.h" />
+    <ClInclude Include="printTree.h" />
+    <ClInclude Include="threading.h" />
+    <ClInclude Include="traverse.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source.cpp" />
