@@ -1,0 +1,36 @@
+﻿  Source.cpp
+d:\toys\hash\hash\hashtable.h(38): warning C4018: '>': signed/unsigned mismatch
+  d:\toys\hash\hash\hashtable.h(29): note: while compiling class template member function 'bool HashTable<int>::insert(const HashedObj &)'
+          with
+          [
+              HashedObj=int
+          ]
+  d:\toys\hash\hash\source.cpp(9): note: see reference to function template instantiation 'bool HashTable<int>::insert(const HashedObj &)' being compiled
+          with
+          [
+              HashedObj=int
+          ]
+  d:\toys\hash\hash\source.cpp(7): note: see reference to class template instantiation 'HashTable<int>' being compiled
+d:\toys\hash\hash\hashtable.h(105): warning C4018: '>=': signed/unsigned mismatch
+  d:\toys\hash\hash\hashtable.h(97): note: while compiling class template member function 'int HashTable<int>::findPos(const HashedObj &) const'
+          with
+          [
+              HashedObj=int
+          ]
+  d:\toys\hash\hash\hashtable.h(30): note: see reference to function template instantiation 'int HashTable<int>::findPos(const HashedObj &) const' being compiled
+          with
+          [
+              HashedObj=int
+          ]
+d:\toys\hash\hash\hashtable.h(53): warning C4018: '>': signed/unsigned mismatch
+  d:\toys\hash\hash\hashtable.h(44): note: while compiling class template member function 'bool HashTable<int>::insert(HashedObj &&)'
+          with
+          [
+              HashedObj=int
+          ]
+  d:\toys\hash\hash\hashtable.h(122): note: see reference to function template instantiation 'bool HashTable<int>::insert(HashedObj &&)' being compiled
+          with
+          [
+              HashedObj=int
+          ]
+  Hash.vcxproj -> D:\toys\Hash\Debug\Hash.exe
